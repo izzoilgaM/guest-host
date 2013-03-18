@@ -1,7 +1,13 @@
 #vid{
 	z-index:3000;
-	display: absolute;
 	margin: 0; 
-	height:800px;
-	width:1280px;
+	height:100%;
+	width:100%;
+	text-align: center;
+}
+
+#background{
+	background-color: black;
+	height: 100%;
+	width: 100%;
 }
