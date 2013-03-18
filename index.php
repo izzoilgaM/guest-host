@@ -8,12 +8,18 @@
 </head>
 
 <body style="background-color:black";>
+
+<img id="vid" src="img/home.gif"/>
+
+
+<!--
 		
 			<video id="vid" width:"1280" height:"800" autoplay loop>
 				<source src="vid/home.mp4" type="video/mp4"/>
 				<source src="vid/home.ogv" type="video/ogg"/>
 				<source src="vid/home.webm" type="video/webm"/>
 			</video>
+-->
 	
 </body>
 
