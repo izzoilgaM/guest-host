@@ -9,7 +9,7 @@
 
 <body>
 		<video id="vid" width:"1280" height:"800" autoplay loop>
-			<source src="vid/home.mp4" type="video/mp4"/>
+			<source src="vid/home2.mp4" type="video/mp4"/>
 			<!--
 							<source src="vid/The_Guys.ogv" type="video/ogg"/>
 							<source src="vid/The_Guys.webm" type="video/webm"/>
