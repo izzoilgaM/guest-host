@@ -9,18 +9,18 @@
 
 <body style="background-color:black";>
 
-<img id="vid" src="img/home.gif"/>
+<div id ="container">
 
-
-<!--
+		<video id="vid" width:"270" height:"800" autoplay loop>
+					<source src="vid/page.mp4" type="video/mp4"/>
+					<!-- <source src="vid/home.ogv" type="video/ogg"/>
+					<source src="vid/home.webm" type="video/webm"/> -->
+				</video>
 		
-			<video id="vid" width:"1280" height:"800" autoplay loop>
-				<source src="vid/home.mp4" type="video/mp4"/>
-				<source src="vid/home.ogv" type="video/ogg"/>
-				<source src="vid/home.webm" type="video/webm"/>
-			</video>
--->
-	
+		<img id="pic" src="img/still.jpg"/>
+		
+</div>
+
 </body>
 
 </html>
