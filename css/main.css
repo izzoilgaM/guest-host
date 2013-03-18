@@ -1,0 +1,7 @@
+#vid{
+	z-index:3000;
+	display: absolute;
+	margin: 0 auto; 
+	height:800px;
+	width:1280px;
+}
