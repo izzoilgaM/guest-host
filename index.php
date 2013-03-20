@@ -35,7 +35,7 @@
 
 <div class="video-background">
 	<video preload="none" poster="vid/page.jpg" autoplay="autoplay" loop="loop">
-		<source src="vid/page.m4v" type="video/mp4">
+		<source src="vid/page.mp4" type="video/mp4">
 	</video>
 </div>
 
