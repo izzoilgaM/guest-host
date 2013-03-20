@@ -6,7 +6,6 @@
 	<title>Guest & Host</title>
 	<link 
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/jquery.videobackground.css">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.videobackground.js"></script>
 	<script>
@@ -20,7 +19,7 @@
 				});
 				$('body').prepend('<div class="video-background"></div>');
 				$('.video-background').videobackground({
-					videoSource: ['vid/page.mp4'], 
+					videoSource: ['vid/page.m4v'], 
 					controlPosition: '#main',
 					poster: 'vid/page.jpg',
 					loadedCallback: function() {
@@ -36,7 +35,7 @@
 
 <div class="video-background">
 	<video preload="none" poster="vid/page.jpg" autoplay="autoplay" loop="loop">
-		<source src="vid/page.mp4" type="video/mp4">
+		<source src="vid/page.m4v" type="video/mp4">
 	</video>
 </div>
 
