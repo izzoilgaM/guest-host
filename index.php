@@ -17,7 +17,9 @@
 					<source src="vid/home.webm" type="video/webm"/> -->
 				</video>
 		
-		<img id="pic" src="img/still.jpg"/>
+		<div id="pic"> </div>
+		
+		<a class="button" id="name" href="URLhere"></a>
 		
 </div>
 
