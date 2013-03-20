@@ -20,9 +20,7 @@
 				});
 				$('body').prepend('<div class="video-background"></div>');
 				$('.video-background').videobackground({
-					videoSource: ['vid/page.mp4',
-						'vid/page.webm', 
-						'vid/page.ogv'], 
+					videoSource: ['vid/page.mp4'], 
 					controlPosition: '#main',
 					poster: 'vid/page.jpg',
 					loadedCallback: function() {
@@ -36,23 +34,16 @@
 
 <body>
 
-<div class="video-background" style="height:978px;">
+<div class="video-background">
 	<video preload="none" poster="vid/page.jpg" autoplay="autoplay" loop="loop">
 		<source src="vid/page.mp4" type="video/mp4">
-		<source src="vid/page.webm" type="video/webm">
-		<source src="vid/page.ogv" type="video/ogg">
 	</video>
 </div>
 
 <div id="page">
-	<div id="page-group">
-		<div id="header" class="header" role="banner">
-		</div>
-		<div id="content">
-			<div id="main" role="main">
-			<h1> jQuery Video Background plugin</h1>
-			<p> Ah, there is text here</p>
-			</div>
+	<a class="button" id="name" href="URLhere"></a>
+	<h1 style="color:white;"> Will this overlay the video? </h1>
+</div>
 
 
 <!--
@@ -67,7 +58,7 @@
 		
 
 		
-		<a class="button" id="name" href="URLhere"></a>
+		
 		
 -->
 		
