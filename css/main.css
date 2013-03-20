@@ -46,3 +46,11 @@
 	width: 384px;
 	height: 104px;
 	}
+	
+#name:active{
+	z-index: 3000;
+	display: block;
+	background-image: url('../img/name_2.jpg');
+	width: 384px;
+	height: 104px;
+	}
