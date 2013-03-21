@@ -9,13 +9,14 @@ div.column {
 
 figure.fixedratio {
   padding-top: 75%;  /* 768px/1024px = 0.5625 */
-  background-image: url('../img/page.jpg');
+  background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;  /* Firefox 3.6 */
-  background-position: center;  /* Internet Explorer 7/8 */
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  background-size: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
 
 
 
