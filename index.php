@@ -7,33 +7,15 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
-<body style="background-color:black;">
+<body>
 
-<div class="video-background">
-
-	<img id="pic" src="img/page.jpg"/>
-
+<div class="column">
+  <figure class="fixedratio"></figure>
 </div>
 
-
-
-<!--
-
-		<video id="vid" width:"270" height:"800" autoplay loop>
-					<source src="vid/page.mp4" type="video/mp4"/>
-					<source src="vid/page.ogv" type="video/ogg"/>
-					<source src="vid/page.webm" type="video/webm"/>
-				</video>
-		
-		<div id="pic"> </div>
-		
-
-		
-		
-		
--->
-		
-</div>
+	<div>
+		<a id="name"></a>
+	</div>
 
 </body>
 
