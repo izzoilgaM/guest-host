@@ -10,9 +10,16 @@
 <body>
 
 <div class="video-background">
+
+<iframe src="http://player.vimeo.com/video/62360965?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<!--
 	<video poster="vid/page.jpg" autoplay loop controls>
 		<source src="vid/page.mp4" type="video/mp4"/>
 	</video>
+-->
+
 </div>
 
 
