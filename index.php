@@ -7,19 +7,13 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body style="background-color:black;">
 
 <div class="video-background">
 
-	<video poster="vid/page.jpg" autoplay loop controls>
-		<source src="vid/page.mp4" type="video/mp4"/>
-	</video>
-	
+	<img id="pic" src="img/page.jpg"/>
+
 </div>
-
-<div id="name"></div>
-
-
 
 
 
