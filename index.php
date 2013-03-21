@@ -10,7 +10,7 @@
 <body>
 
 <div class="video-background">
-	<video poster="vid/page.jpg" autoplay="autoplay" loop="loop">
+	<video poster="vid/page.jpg" autoplay loop controls>
 		<source src="vid/page.mp4" type="video/mp4"/>
 	</video>
 </div>
