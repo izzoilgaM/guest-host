@@ -27,7 +27,7 @@
 				<input type="checkbox" id="toggle" />
 				 <div id="modal">
 					 <video class="overlay" autoplay controls>
-							<source src="./vid/name.mp4" type="video/mp4"/>
+							<source src="./vid/name.mp4" poster="./img/intro.png" type="video/mp4"/>
 						<!--
 							<source src="vid/The_Guys.ogv" type="video/ogg"/>
 							<source src="vid/The_Guys.webm" type="video/webm"/>

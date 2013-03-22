@@ -46,7 +46,7 @@ body{
 }
 
 .overlay{
-	width:1024px;
+	width:100%;
 	left: 0px;
 	margin-top:100px;
 }
