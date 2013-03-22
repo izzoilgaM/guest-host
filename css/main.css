@@ -5,41 +5,71 @@ html{
 
 body{
 	background-color: black;
+	text-align: center;
 	height:100%;
 	margin: 0px;
 }
 
-#container{
-	float: left;
-	height: 100%;
-	width:100%;
+#wrapper{
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
 }
 
 #page{
-  width:100%;
+  min-width: 1024px;
+  position: absolute;
+  left:50%;
+  margin-left: -512px;
+  z-index: 0;
+  width:1024px;
+  height:768px;
  }
+ 
+ @-webkit-keyframes ghastly {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes ghastly  {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-ms-keyframes ghastly  {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
 
-
-#name{
-	z-index: 3000;
-	position: absolute;
-	display: block;
-	background-image: url('../img/name.jpg');
-	width: 186px;
-	height: 132px;
-	margin-left: 300px;
-	margin-top: -590px;	
+.ghost{
+    -webkit-animation: ghastly 5s alternate infinite;
+    -moz-animation: ghastly 5s alternate infinite;
+    -ms-animation: ghastly 5s alternate infinite;
 }
 
 
+#name{
+	position: absolute;
+	display: block;
+	background-image: url('../img/name.jpg');
+	min-width: 406px;
+	left:50%;
+	margin-top: 203px;
+	margin-left: -397px;
+	width: 406px;
+	height: 130px;
+}
+
 #name:hover{
-	-moz-transition: all 1s ease-out;
-	-webkit-transition: all 1s ease-out;
-	-ms-transition: all 1s ease-out;
-	transition: all 1s ease-out;
+	cursor: pointer;
+	background-image: url('../img/name.jpg');
+	position: absolute;
+	display: block;
 	z-index: 3000;
 	display: block;
 	background-image: none;
-	width: 186px;
-	height: 132px;
+	width: 406px;
+	height: 130px;
+		-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 	}
