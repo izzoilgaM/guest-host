@@ -4,9 +4,9 @@ html{
 
 
 body{
-background-color: black;
-height:100%;
-margin: 0px;
+	background-color: black;
+	height:100%;
+	margin: 0px;
 }
 
 #container{
@@ -16,7 +16,6 @@ margin: 0px;
 }
 
 #page{
-  height:100%;
   width:100%;
  }
 
