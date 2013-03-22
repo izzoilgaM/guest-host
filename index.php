@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Guest & Host</title>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
