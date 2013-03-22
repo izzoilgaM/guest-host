@@ -26,7 +26,7 @@ body{
   height:768px;
  }
  
- @-webkit-keyframes ghastly {
+@-webkit-keyframes ghastly {
     0%   { opacity: 0; }
     100% { opacity: 1; }
 }
@@ -43,6 +43,12 @@ body{
     -webkit-animation: ghastly 5s alternate infinite;
     -moz-animation: ghastly 5s alternate infinite;
     -ms-animation: ghastly 5s alternate infinite;
+}
+
+.overlay{
+	width:1024px;
+	left: 0px;
+	margin-top:100px;
 }
 
 
@@ -68,8 +74,93 @@ body{
 	background-image: none;
 	width: 406px;
 	height: 130px;
-		-moz-transition: all 1s ease-out;
-	-webkit-transition: all 1s ease-out;
-	-ms-transition: all 1s ease-out;
-	transition: all 1s ease-out;
 	}
+	
+label {
+  position: absolute;
+  display: block;
+  min-width: 406px;
+  height: 130px;
+  left:50%;
+  margin-top: 203px;
+  margin-left: -397px;
+  width: 406px;
+  background: none;
+  text-align: center;
+}
+ 
+label:hover {
+  background: none;
+  cursor: pointer;
+}
+
+
+input#toggle {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+#modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -512px;
+  z-index: -100;
+  margin-top: 0px;
+  margin-left: 50%;
+  padding: 0 auto;
+  width: 1024px;
+  height: 768px;
+  border-radius: 0px;
+  background-color: black;
+  opacity: .5; 
+ 
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+ 
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+#modal h2 {
+  color: white;
+  text-transform: uppercase;
+  font: 35px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+#modal p {
+  color: white;
+  text-align: left;
+  font: 13px/1.8 Georgia, Times, sans-serif;
+}
+
+input#toggle:checked + #modal {
+  opacity: 1;
+  z-index: 1;
+}
+
+input#toggle:checked + #modal {
+  opacity: 1;
+  z-index: 1;
+}
+
+@media all and (max-width: 1024px) {
+  #modal {
+    width: 1024px;
+    height: 768px;
+  }
+ 
+  #modal h2 {
+    font: 30px/1.5 Helvetica, Verdana, sans-serif;
+  }
+ 
+  #modal p {
+    font: 12px/1.8 Georgia, Times, sans-serif;
+  }
+}
