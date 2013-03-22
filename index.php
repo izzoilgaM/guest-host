@@ -9,13 +9,14 @@
 
 <body>
 
-<div class="column">
-  <figure class="fixedratio"></figure>
-</div>
+<div id="container">
 
-	<div>
-		<a id="name"></a>
-	</div>
+<img id="page" src="img/bg.jpg"/>	
+
+</div>
+	
+
+
 
 </body>
 
