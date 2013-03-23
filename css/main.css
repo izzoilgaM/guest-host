@@ -8,6 +8,7 @@ body{
 	text-align: center;
 	height:100%;
 	margin: 0px;
+	padding: 0;
 }
 
 #wrapper{
@@ -45,16 +46,10 @@ body{
     -ms-animation: ghastly 5s alternate infinite;
 }
 
-.overlay{
-	width:100%;
-	left: 0px;
-	margin-top:100px;
-}
-
-
 #name{
 	position: absolute;
 	display: block;
+	overflow: hidden;
 	background-image: url('../img/name.jpg');
 	min-width: 406px;
 	left:50%;
@@ -76,29 +71,23 @@ body{
 	height: 130px;
 	}
 	
-label {
-  position: absolute;
-  display: block;
-  min-width: 406px;
-  height: 130px;
-  left:50%;
-  margin-top: 203px;
-  margin-left: -397px;
-  width: 406px;
-  background: none;
-  text-align: center;
-}
- 
-label:hover {
-  background: none;
-  cursor: pointer;
+#overlay{
+     visibility:hidden;
+     position:absolute;
+     left:0px;
+     top:0px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+     background-color:black;
 }
 
-
-input#toggle {
-   position: absolute;
-   top: -9999px;
-   left: -9999px;
+#overlay div{
+     width:100%;
+     margin: 0px auto;
+     background-color: black;
+     text-align: center;
 }
 
 #modal {
@@ -138,29 +127,4 @@ input#toggle {
   color: white;
   text-align: left;
   font: 13px/1.8 Georgia, Times, sans-serif;
-}
-
-input#toggle:checked + #modal {
-  opacity: 1;
-  z-index: 1;
-}
-
-input#toggle:checked + #modal {
-  opacity: 1;
-  z-index: 1;
-}
-
-@media all and (max-width: 1024px) {
-  #modal {
-    width: 1024px;
-    height: 768px;
-  }
- 
-  #modal h2 {
-    font: 30px/1.5 Helvetica, Verdana, sans-serif;
-  }
- 
-  #modal p {
-    font: 12px/1.8 Georgia, Times, sans-serif;
-  }
 }
