@@ -20,18 +20,20 @@
 		<img id="page" src="img/bg.jpg"/>
 		
 		<div>
-				<div id="name" class="ghost"><a style="display:block; width: 406px; height: 130px;" href='#' onclick='overlay()'></a></div>
+				<div id="name" class="ghost"></div>
 				
-				<div id="overlay">
-				     <div>			     	
+				<div>
+					<label for="toggle"></label>
+                    <input type="checkbox" id="toggle" />
+                    <div id="modal">		
 				          <video class="overlay" autoplay controls>
 								<source src="./vid/name.mp4" poster="./img/intro.png" type="video/mp4"/>
 							<!--
 								<source src="vid/The_Guys.ogv" type="video/ogg"/>
 								<source src="vid/The_Guys.webm" type="video/webm"/>
 							-->
-						</video>
-				     </div>
+						  </video>
+                    </div>
 				</div>
 		</div>
 			
@@ -44,7 +46,6 @@
 	
 
 
-<script src="js/modal.js"></script>
 </body>
 
 </html>
