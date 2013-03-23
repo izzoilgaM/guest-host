@@ -114,7 +114,7 @@ input#toggle {
   margin-top: 0px;
   margin-left: 50%;
   padding: 0 auto;
-  width: 1024px;
+  max-width: 1024px;
   height: 768px;
   border-radius: 0px;
   background-color: black;
