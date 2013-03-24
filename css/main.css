@@ -47,9 +47,9 @@ body{
 }
 
 .ghost2{
-    -webkit-animation: ghastly 7s -5s alternate infinite;
-    -moz-animation: ghastly 7s -5s alternate infinite;
-    -ms-animation: ghastly 7s -5s alternate infinite;
+    -webkit-animation: ghastly 6s -5s alternate infinite;
+    -moz-animation: ghastly 6s -5s alternate infinite;
+    -ms-animation: ghastly 6s -5s alternate infinite;
 }
 
 .ghost3{
@@ -65,15 +65,15 @@ body{
 }
 
 .ghost5{
-    -webkit-animation: ghastly 5s -4.5s alternate infinite;
-    -moz-animation: ghastly 5s -4.5s alternate infinite;
-    -ms-animation: ghastly 5s -4.5s alternate infinite;
+    -webkit-animation: ghastly 5.5s -4.5s alternate infinite;
+    -moz-animation: ghastly 5.5s -4.5s alternate infinite;
+    -ms-animation: ghastly 5.5s -4.5s alternate infinite;
 }
 
 .ghost6{
-    -webkit-animation: ghastly 7s -4s alternate infinite;
-    -moz-animation: ghastly 7s -4s alternate infinite;
-    -ms-animation: ghastly 7s -4s alternate infinite;
+    -webkit-animation: ghastly 7.5s -4s alternate infinite;
+    -moz-animation: ghastly 7.5s -4s alternate infinite;
+    -ms-animation: ghastly 7.5s -4s alternate infinite;
 }
 
 #name{
@@ -85,6 +85,12 @@ body{
 	left:50%;
 	margin-top: 203px;
 	margin-left: -397px;
+	width: 406px;
+	height: 130px;
+}
+
+#name a{
+	display: block;
 	width: 406px;
 	height: 130px;
 }
