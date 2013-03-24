@@ -50,7 +50,24 @@
 				<div id="bed" class="ghost3"></div>
 		
 		</div>
-			
+		
+		<div>
+		
+				<div id="hotel" class="ghost4"></div>
+		
+		</div>
+		
+		<div>
+		
+				<div id="divide" class="ghost5"></div>
+		
+		</div>
+		
+		<div>
+		
+				<div id="carrier" class="ghost6"></div>
+		
+		</div>
 			
 		
 	  

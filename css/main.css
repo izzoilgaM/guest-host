@@ -47,15 +47,33 @@ body{
 }
 
 .ghost2{
-    -webkit-animation: ghastly 5s -5s alternate infinite;
-    -moz-animation: ghastly 5s -5s alternate infinite;
-    -ms-animation: ghastly 5s -5s alternate infinite;
+    -webkit-animation: ghastly 7s -5s alternate infinite;
+    -moz-animation: ghastly 7s -5s alternate infinite;
+    -ms-animation: ghastly 7s -5s alternate infinite;
 }
 
 .ghost3{
     -webkit-animation: ghastly 5s -3s alternate infinite;
     -moz-animation: ghastly 5s -3s alternate infinite;
     -ms-animation: ghastly 5s -3s alternate infinite;
+}
+
+.ghost4{
+    -webkit-animation: ghastly 7s -1.5s alternate infinite;
+    -moz-animation: ghastly 7s -1.5s alternate infinite;
+    -ms-animation: ghastly 7s -1.5s alternate infinite;
+}
+
+.ghost5{
+    -webkit-animation: ghastly 5s -4.5s alternate infinite;
+    -moz-animation: ghastly 5s -4.5s alternate infinite;
+    -ms-animation: ghastly 5s -4.5s alternate infinite;
+}
+
+.ghost6{
+    -webkit-animation: ghastly 7s -4s alternate infinite;
+    -moz-animation: ghastly 7s -4s alternate infinite;
+    -ms-animation: ghastly 7s -4s alternate infinite;
 }
 
 #name{
@@ -133,3 +151,77 @@ body{
 	height: 123px;
 	}
 
+#hotel{
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	background-image: url('../img/hotel.jpg');
+	min-width: 390px;
+	left:50%;
+	margin-top: 205px;
+	margin-left: 30px;
+	width: 390px;
+	height: 144px;
+}
+
+#hotel:hover{
+	cursor: pointer;
+	background-image: url('../img/hotel.jpg');
+	position: absolute;
+	display: block;
+	z-index: 3000;
+	display: block;
+	background-image: none;
+	width: 390px;
+	height: 144px;
+	}
+	
+#divide{
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	background-image: url('../img/divide.jpg');
+	min-width: 406px;
+	left:50%;
+	margin-top: 333px;
+	margin-left: 30px;
+	width: 406px;
+	height: 123px;
+}
+
+#divide:hover{
+	cursor: pointer;
+	background-image: url('../img/divide.jpg');
+	position: absolute;
+	display: block;
+	z-index: 3000;
+	display: block;
+	background-image: none;
+	width: 406px;
+	height: 123px;
+	}
+
+#carrier{
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	background-image: url('../img/carrier.jpg');
+	min-width: 406px;
+	left:50%;
+	margin-top: 452px;
+	margin-left: 30px;
+	width: 406px;
+	height: 123px;
+}
+
+#carrier:hover{
+	cursor: pointer;
+	background-image: url('../img/carrier.jpg');
+	position: absolute;
+	display: block;
+	z-index: 3000;
+	display: block;
+	background-image: none;
+	width: 406px;
+	height: 123px;
+	}
