@@ -22,20 +22,35 @@
 		<div>
 				<div id="name" class="ghost"></div>
 				
+				<!--
 				<div>
-					<label for="toggle"></label>
-                    <input type="checkbox" id="toggle"/>
-                    <div id="modal">	
-				          <video class="overlay" controls>
+				
+                    <div>	
+				          <video controls>
 								<source src="./vid/name.mp4" poster="./img/intro.png" type="video/mp4"/>
 							<!--
 								<source src="vid/The_Guys.ogv" type="video/ogg"/>
 								<source src="vid/The_Guys.webm" type="video/webm"/>
-							-->
+							
 						  </video>
                     </div>
 				</div>
+				-->
+				
 		</div>
+		
+		<div>
+		
+				<div id="wall" class="ghost2"></div>
+		
+		</div>
+		
+		<div>
+		
+				<div id="bed" class="ghost3"></div>
+		
+		</div>
+			
 			
 		
 	  
