@@ -25,9 +25,9 @@
 				<div>
 					<label for="toggle"></label>
                     <input type="checkbox" id="toggle"/>
-                    <div id="modal">		
+                    <div id="modal">	
 				          <video class="overlay" autoplay controls>
-								<source src="./vid/name.mp4" height="1024" width="768" poster="./img/intro.png" type="video/mp4"/>
+								<source src="./vid/name.mp4" height="1024" width="576" poster="./img/intro.png" type="video/mp4"/>
 							<!--
 								<source src="vid/The_Guys.ogv" type="video/ogg"/>
 								<source src="vid/The_Guys.webm" type="video/webm"/>

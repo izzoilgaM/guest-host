@@ -115,7 +115,7 @@ input#toggle {
   margin-left: 50%;
   padding: 0 auto;
   max-width: 1024px;
-  height: 768px;
+  height: 576px;
   border-radius: 0px;
   background-color: black;
   opacity: .5;
@@ -144,5 +144,5 @@ input#toggle:checked + #modal {
 @media all and (max-width: 1024px) {
   #modal {
     width: 1024px;
-    height: 768px;
+    height: 576px;
   }
