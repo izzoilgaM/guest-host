@@ -87,7 +87,7 @@ body{
 	position: absolute;
 	display: block;
 	overflow: hidden;
-	background-image: url('../img/wall.jpg');
+	background-image: url('../img/wall2.jpg');
 	min-width: 406px;
 	left:50%;
 	margin-top: 327px;
@@ -98,7 +98,7 @@ body{
 
 #wall:hover{
 	cursor: pointer;
-	background-image: url('../img/wall.jpg');
+	background-image: url('../img/wall2.jpg');
 	position: absolute;
 	display: block;
 	z-index: 3000;
