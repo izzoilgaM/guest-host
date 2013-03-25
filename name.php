@@ -23,7 +23,7 @@
 		  <script>
 		  setTimeout(function(){
 			  window.location =
-			  "http://zeega.com/97731";}, 29000);
+			  "http://zeega.com/97731";}, 30000);
 		  </script>
 		</video>
                         
