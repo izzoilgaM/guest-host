@@ -21,22 +21,7 @@
 		
 		<div>
 				<div id="name" class="ghost"><a href="name.php"></a></div>
-				
-				<!--
-				<div>
-				
-                    <div>	
-				          <video controls>
-								<source src="./vid/name.mp4" poster="./img/intro.png" type="video/mp4"/>
-							<!--
-								<source src="vid/The_Guys.ogv" type="video/ogg"/>
-								<source src="vid/The_Guys.webm" type="video/webm"/>
-							
-						  </video>
-                    </div>
-				</div>
-				-->
-				
+								
 		</div>
 		
 		<div>

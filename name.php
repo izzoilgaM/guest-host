@@ -10,6 +10,9 @@
 	<link rel="stylesheet" href="css/video.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	</head>
+	<script>
+	$(document).ready(function() { $("video").click(); });
+	</script>
 
 <body>
 		<video class="v" controls
@@ -17,16 +20,12 @@
 		  <source src="./vid/name.mp4" type='video/mp4'>
 		  <source src="vid/name.ogv" type="video/ogg"/>
 		  <source src="./vid/name.webm" type='video/webm'>
+		  <script>
+		  setTimeout(function(){
+			  window.location =
+			  "http://zeega.com/97731";}, 29000);
+		  </script>
 		</video>
-
-<!--
-      <video id="jquery_jplayer_1" class="v" controls>
-			<source src="./vid/name.mp4" poster="./img/intro.png" type="video/mp4"/>
-			<source src="vid/name.ogv" type="video/ogg"/>
-			<source src="vid/name.webm" type="video/webm"/>
-		
-	  </video>   
---> 
                         
 </body>
 
