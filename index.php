@@ -26,31 +26,31 @@
 		
 		<div>
 		
-				<div id="wall" class="ghost2"></div>
+				<div id="wall" class="ghost2"><a href="wall.php"></a></div>
 		
 		</div>
 		
 		<div>
 		
-				<div id="bed" class="ghost3"></div>
+				<div id="bed" class="ghost3"><a href="bed.php"></a></div>
 		
 		</div>
 		
 		<div>
 		
-				<div id="hotel" class="ghost4"></div>
+				<div id="hotel" class="ghost4"><a href="hotel.php"></a></div>
 		
 		</div>
 		
 		<div>
 		
-				<div id="divide" class="ghost5"></div>
+				<div id="footing" class="ghost5"><a href="footing.php"></a></div>
 		
 		</div>
 		
 		<div>
 		
-				<div id="carrier" class="ghost6"></div>
+				<div id="carrier" class="ghost6"><a href="carrier.php"></a></div>
 		
 		</div>
 			

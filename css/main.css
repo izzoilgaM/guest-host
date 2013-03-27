@@ -182,20 +182,20 @@ body{
 	height: 144px;
 	}
 	
-#divide{
+#footing{
 	position: absolute;
 	display: block;
 	overflow: hidden;
-	background-image: url('../img/divide.jpg');
-	min-width: 406px;
+	background-image: url('../img/footing.jpg');
+	min-width: 352px;
 	left:50%;
-	margin-top: 333px;
-	margin-left: 30px;
-	width: 406px;
-	height: 123px;
+	margin-top: 343px;
+	margin-left: 55px;
+	width: 352px;
+	height: 130px;
 }
 
-#divide:hover{
+#footing:hover{
 	cursor: pointer;
 	background-image: url('../img/divide.jpg');
 	position: absolute;
@@ -203,8 +203,8 @@ body{
 	z-index: 3000;
 	display: block;
 	background-image: none;
-	width: 406px;
-	height: 123px;
+	width: 352px;
+	height: 130px;
 	}
 
 #carrier{
