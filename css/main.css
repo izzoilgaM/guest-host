@@ -120,6 +120,12 @@ body{
 	height: 123px;
 }
 
+#wall a{
+	display: block;
+	width:406px;
+	height:123px;
+}
+
 #wall:hover{
 	cursor: pointer;
 	background-image: url('../img/wall2.jpg');
@@ -141,6 +147,12 @@ body{
 	left:50%;
 	margin-top: 452px;
 	margin-left: -397px;
+	width: 406px;
+	height: 123px;
+}
+
+#bed a{
+	display: block;
 	width: 406px;
 	height: 123px;
 }
@@ -170,6 +182,12 @@ body{
 	height: 144px;
 }
 
+#hotel a{
+	display: block;
+	width: 390px;
+	height: 144px;
+}
+
 #hotel:hover{
 	cursor: pointer;
 	background-image: url('../img/hotel.jpg');
@@ -191,6 +209,12 @@ body{
 	left:50%;
 	margin-top: 343px;
 	margin-left: 55px;
+	width: 352px;
+	height: 130px;
+}
+
+#footing a{
+	display: block;
 	width: 352px;
 	height: 130px;
 }
@@ -218,6 +242,13 @@ body{
 	margin-left: 30px;
 	width: 406px;
 	height: 123px;
+}
+
+#carrier a{
+	display: block;
+	width: 406px;
+	height: 123px;
+
 }
 
 #carrier:hover{
