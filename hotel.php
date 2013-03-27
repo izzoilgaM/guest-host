@@ -15,7 +15,7 @@
 	</script>
 
 <body>
-		<video class="v" controls
+		<video class="v" controls autoplay="autoplay"
 		  preload="auto" width="100%" height="100%" poster="./img/intro.png">
 		  <source src="./vid/hotel.mp4" type='video/mp4'>
 		  <source src="vid/hotel.ogv" type="video/ogg"/>
