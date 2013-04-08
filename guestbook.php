@@ -24,6 +24,10 @@
 <!-- end htmlcommentbox.com -->
 
 		</div>
+		
+		<div>
+			<a id="home" href="http://guestandhost.herokuapp.com">  </a>
+		</div>
 
 	</div>
 
