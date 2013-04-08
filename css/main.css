@@ -266,12 +266,19 @@ body{
 #guestbook{
 	background-image: url('../img/bg_dark.jpg');
 	background-repeat: no-repeat;
+	min-width: 1024px;
+	position: absolute;
+	left:50%;
+	margin-left: -512px;
+	z-index: 0;
+	width:1024px;
+	height:768px;
+	
 	opacity: .6; 
 	padding:20px;
-	width:1024px; 
-	height:768px; 
+	 
 	overflow-y: scroll;
-	margin: 0 auto;
+
 	color:white;
 	text-align:center;
 }
