@@ -273,12 +273,16 @@ body{
 	z-index: 0;
 	width:1024px;
 	height:768px;
-	
-	opacity: .6; 
-	padding:20px;
-	 
-	overflow-y: scroll;
+	}
 
+#comments{
+	margin-top: 68px;
+	margin-left: 95px;
+	opacity: .6; 
+	padding-right:20px;
+	overflow-y: scroll;
 	color:white;
 	text-align:center;
 }
+
+#comments 
