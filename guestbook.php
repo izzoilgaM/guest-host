@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body style="padding:10px; width:1024px; height:768px;">
 
 <!-- begin htmlcommentbox.com -->
  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
