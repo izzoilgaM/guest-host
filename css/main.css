@@ -280,7 +280,7 @@ body{
 	margin-left: 95px;
 	opacity: .6; 
 	padding-right:20px;
-	overflow-y: scroll;
+	overflow-y: hidden scroll;
 	color:white;
 	text-align:center;
 }

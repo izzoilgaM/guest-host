@@ -15,6 +15,10 @@
 
 	<div id="guestbook">
 	
+		<div>
+			<a id="home" href="http://guestandhost.herokuapp.com">  </a>
+		</div>
+	
 		<div id="comments">
 
 <!-- begin htmlcommentbox.com -->
@@ -25,9 +29,7 @@
 
 		</div>
 		
-		<div>
-			<a id="home" href="http://guestandhost.herokuapp.com">  </a>
-		</div>
+		
 
 	</div>
 
