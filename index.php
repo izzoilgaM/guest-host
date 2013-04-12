@@ -20,6 +20,11 @@
 		<img id="page" src="img/bg.jpg"/>
 		
 		<div>
+				<div id="sign"><a href="guestbook.php"></a></div>
+								
+		</div>
+		
+		<div>
 				<div id="name" class="ghost"><a href="name.php"></a></div>
 								
 		</div>

@@ -263,6 +263,45 @@ body{
 	height: 123px;
 	}
 	
+#sign{
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	background-image: url('../img/guestbook.jpg');
+	min-width: 172px;
+	left:50%;
+	margin-top: 90px;
+	margin-left: 300px;
+	width: 172px;
+	height: 77px;
+	  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#sign a{
+	display: block;
+	width: 172px;
+	height: 77px;
+
+}
+
+#sign:hover{
+	cursor: pointer;
+	background-image: url('../img/guestbook_hover.jpg');
+	position: absolute;
+	display: block;
+	z-index: 3000;
+	display: block;
+	width: 172px;
+	height: 77px;
+	  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+	}
+	
 #guestbook{
 	background-image: url('../img/bg_dark.jpg');
 	background-repeat: no-repeat;
