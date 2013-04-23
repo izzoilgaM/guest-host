@@ -324,12 +324,15 @@ body{
 	text-align:center;
 }
 
-.comments a{
-	color:#999;
+#HCB_comment_box blockquote {
+  color:white;
 }
 
-.comments a:hover{
-	color:#fff;
+#HCB_comment_box .text-blur {
+  color:white;
+}
+#HCB_comment_box .text-focus {
+  color:#999;
 }
 
 .comments{
