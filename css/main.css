@@ -324,11 +324,11 @@ body{
 	text-align:center;
 }
 
-#comments a{
+.comments a{
 	color:#999;
 }
 
-#comments a:hover{
+.comments a:hover{
 	color:#fff;
 }
 
