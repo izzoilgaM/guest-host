@@ -324,6 +324,14 @@ body{
 	text-align:center;
 }
 
+#comments a{
+	color:#999;
+}
+
+#comments a:hover{
+	color:#fff;
+}
+
 .comments{
 	margin-top: 68px;
 	margin-left: 95px;
