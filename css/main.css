@@ -267,13 +267,13 @@ body{
 	position: absolute;
 	display: block;
 	overflow: hidden;
-	background-image: url('../img/guestbook.jpg');
-	min-width: 172px;
+	background-image: url('../img/guestbook_old.jpg');
+	min-width: 181px;
 	left:50%;
-	margin-top: 90px;
-	margin-left: 300px;
-	width: 172px;
-	height: 77px;
+	margin-top: 75px;
+	margin-left: 308px;
+	width: 181px;
+	height: 128px;
 	  -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -289,13 +289,13 @@ body{
 
 #sign:hover{
 	cursor: pointer;
-	background-image: url('../img/guestbook_hover.jpg');
+	background-image: url('../img/guestbook_old_hover.jpg');
 	position: absolute;
 	display: block;
 	z-index: 3000;
 	display: block;
-	width: 172px;
-	height: 77px;
+	width: 181px;
+	height: 128px;
 	  -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -368,7 +368,7 @@ a.hcb-reply:hover{
 }
 
 #home{
-	background-image: url('../img/home2.png');
+	background-image: url('../img/home_plain.png');
 	display: block;
 	color:white;
 	position: absolute;
@@ -384,7 +384,7 @@ a.hcb-reply:hover{
 }
 
 #home:hover{
-	background-image: url('../img/home_hover2.png');
+	background-image: url('../img/home_plainhover.png');
 	display: block;
 	color:#666;
 	width: 50px;
