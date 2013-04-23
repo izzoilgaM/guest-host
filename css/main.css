@@ -324,17 +324,6 @@ body{
 	text-align:center;
 }
 
-#HCB_comment_box blockquote {
-  color:white;
-}
-
-#HCB_comment_box .text-blur {
-  color:white;
-}
-#HCB_comment_box .text-focus {
-  color:#999;
-}
-
 .comments{
 	margin-top: 68px;
 	margin-left: 95px;
@@ -343,6 +332,39 @@ body{
 	overflow-y: hidden scroll;
 	color:white;
 	text-align:center;
+}
+
+
+a.hcb-flag{
+	color:#999;
+}
+
+a.hcb-flag:hover{
+	color:#fff;
+}
+
+a.hcb-like{
+	color:#999;
+}
+
+a.hcb-like:hover{
+	color:#fff;
+}
+
+a.hcb-reply{
+	color:#999;
+}
+
+a.hcb-reply:hover{
+	color:#fff;
+}
+
+.home-desc{
+	display: none;
+}
+
+.home-desc a{
+	color: #fff !important;
 }
 
 #home{
