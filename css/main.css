@@ -362,7 +362,7 @@ body{
 	margin-left: 390px;
 	margin-top: 710px;
 	display: block;
-	color: white;
+	color: #999;
 	min-width: 150px;
 	width: 150px;
 	height:150px;
@@ -373,7 +373,7 @@ body{
 #credit_link a:hover{
 	position: absolute;
 	display: block;
-	color:#999;
+	color:white;
 	min-width: 150px;
 	width: 150px;
 	height:150px;
