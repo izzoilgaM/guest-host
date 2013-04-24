@@ -36,7 +36,9 @@
 	
 		<div id="credits">
 <p>
-Built for the Guest and Host exhibition at the Tel Aviv Museum of Art, GHOST is a composite formed out of the words that make up the exhibition's title. It consists in six multimedia montages built on the Zeega interactive storytelling platform. Entitled Footing, Bed, Wall, Hotel, What’s in a name? and Carrier, they form less a cohesive set than a scatterplot of seeds harvested from across the digital landscape, assembled on the fly within the quires of a virtual Guest Book. The Guest Book is an empty container full of found materials: texts, photographs, recordings, animations. Instead of being downloaded, these are served up live from remote online hosts. Wrenched from familiar surroundings into ones where they wander like strangers in a strange land, they arrive stitched together in real time.
+Built for the Guest and Host exhibition at the Tel Aviv Museum of Art, GHOST is a composite formed out of the words that make up the exhibition's title. It consists in six multimedia montages built on the Zeega interactive storytelling platform. Entitled Footing, Bed, Wall, Hotel, What’s in a name? and Carrier, they form less a cohesive set than a scatterplot of seeds harvested from across the digital landscape, assembled on the fly within the quires of a virtual Guest Book. 
+<br><br>
+The Guest Book is an empty container full of found materials: texts, photographs, recordings, animations. Instead of being downloaded, these are served up live from remote online hosts. Wrenched from familiar surroundings into ones where they wander like strangers in a strange land, they arrive stitched together in real time.
 <br><br>
 Like the places of passage that make up the contemporary economy of hospitality—the hotels, hospitals, hospices, and hostels that take us in and where life’s scripted plans collide with its hazards and accidents—Ghost operates inside the walls of the public-private home of the World Wide Web with its electronic handshakes and data protocols.
 <br><br>

@@ -336,7 +336,8 @@ body{
 
 #credits{
 	margin-top: 80px;
-	margin-left: 22px;
+	margin-left: 102px;
+	width: 900px;
 	opacity: 1; 
 	padding-right:20px;
 	overflow-y: hidden scroll;
@@ -347,13 +348,13 @@ body{
 }
 
 #credits a{
-	color:#999;
+	color:white;
 	opacity: 1;
 
 }
 
 #credits a:hover{
-	color: white;
+	color: #999;
 }
 
 #credit_link a{
