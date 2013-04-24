@@ -324,6 +324,62 @@ body{
 	text-align:center;
 }
 
+#credits_title{
+	margin-top: 120px;
+	margin-left: 76px;
+	opacity: 1; 
+	color:white;
+	text-align:center;
+	font-family: Roboto, sans-serif;
+	letter-spacing: 6px;
+}
+
+#credits{
+	margin-top: 80px;
+	margin-left: 22px;
+	opacity: 1; 
+	padding-right:20px;
+	overflow-y: hidden scroll;
+	color:white;
+	text-align:justify;
+	font-family: Roboto, sans-serif;
+	letter-spacing: 1px;
+}
+
+#credits a{
+	color:#999;
+	opacity: 1;
+
+}
+
+#credits a:hover{
+	color: white;
+}
+
+#credit_link a{
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 710px;
+	display: block;
+	color: white;
+	min-width: 150px;
+	width: 150px;
+	height:150px;
+	z-index: 20000;
+	left:50%;
+}
+
+#credit_link a:hover{
+	position: absolute;
+	display: block;
+	color:#999;
+	min-width: 150px;
+	width: 150px;
+	height:150px;
+	z-index: 20000;
+	left:50%;
+}
+
 .comments{
 	margin-top: 68px;
 	margin-left: 95px;
