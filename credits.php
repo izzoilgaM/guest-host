@@ -46,7 +46,7 @@ Like the places of passage that make up the contemporary economy of hospitalityâ
 <br><br>
 <b> Video/web production and production support - <a href="http://cristoforomagliozzi.com"> Cristoforo Magliozzi, <a href="http://metalab.harvard.edu/">metaLAB (at) Harvard</a> </b>
 <br><br>
-<b> Technical assistance - <a href="http://zeega.com/"> the Zeega team</a> </b>
+<b> Technical assistance - the Zeega team </b>
 </p>
 		</div>
 		
