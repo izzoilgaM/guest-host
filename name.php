@@ -33,7 +33,7 @@
 		  <script>
 		  setTimeout(function(){
 			  window.location =
-			  "http://zeega.com/97731";}, 30000);
+			  "namezeega.php";}, 30000);
 		  </script>
 		</video>
                         

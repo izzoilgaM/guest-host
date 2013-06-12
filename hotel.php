@@ -33,7 +33,7 @@
 		  <script>
 		  setTimeout(function(){
 			  window.location =
-			  "http://zeega.com/97894";}, 26000);
+			  "hotelzeega.php";}, 26000);
 		  </script>
 		</video>
                         
