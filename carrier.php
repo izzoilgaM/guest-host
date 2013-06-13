@@ -27,9 +27,9 @@
 <body>
 		<video class="v" controls autoplay="autoplay"
 		  preload="auto" width="100%" height="100%" poster="./img/intro.png">
-		  <source src="./vid/carrier.mp4" type='video/mp4'>
-		  <source src="vid/carrier.ogv" type="video/ogg"/>
-		  <source src="./vid/carrier.webm" type='video/webm'>
+		  <source src="http://guest-host-assets.s3.amazonaws.com/vid/carrier.mp4" type='video/mp4'>
+		  <source src="http://guest-host-assets.s3.amazonaws.com/vid/carrier.ogv" type="video/ogg"/>
+		  <source src="http://guest-host-assets.s3.amazonaws.com/vid/carrier.webm" type='video/webm'>
 		  <script>
 		  setTimeout(function(){
 			  window.location =

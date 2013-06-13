@@ -27,9 +27,9 @@
 <body>
 		<video class="v" controls autoplay="autoplay"
 		  preload="auto" width="100%" height="100%" poster="./img/intro.png">
-		  <source src="./vid/wall.mp4" type='video/mp4'>
-		  <source src="vid/wall.ogv" type="video/ogg"/>
-		  <source src="./vid/wall.webm" type='video/webm'>
+		  <source src="http://guest-host-assets.s3.amazonaws.com/vid/wall.mp4" type='video/mp4'>
+		  <source src="http://guest-host-assets.s3.amazonaws.com/vid/wall.ogv" type="video/ogg"/>
+		  <source src="http://guest-host-assets.s3.amazonaws.com/vid/wall.webm" type='video/webm'>
 		  <script>
 		  setTimeout(function(){
 			  window.location =
